@@ -16,7 +16,7 @@ html{
 
 a{
   color: inherit;
-  text-transform: none;
+  text-decoration: none;
 }
 
 .container{
@@ -49,10 +49,10 @@ body{
 .menu-list{
   display: flex;
   gap: 0 40px;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
-.menu-left{
+.menu-list{
   padding-left: 25px;
 }
 
@@ -73,30 +73,49 @@ body{
 }
 
 .promo__inner{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   text-align: center;
 }
 
 .title{
     font-family: 'Impact', sans-serif;
-    font-weight: 400;
+    font-weight: 400; 
     font-size: 76px;
     letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    font-style: normal;
 }
 
 .subtitle{
   font-family: 'Impact', sans-serif;
   font-weight: 400;
   font-size: 48px;
+  border-bottom: 1px solid #040404;
+  margin-bottom: 10px;
+  align-self: center;
 }
 
 .subtitle span{
   display: block;
   font-size: 34px;
-  color: #9F6B08
+  color: #9F6B08;
+  padding: 10px 0;
 }
 
-.promo__text
+.promo__text{
+  font-size: 16px;
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.promo__arrow{
+  margin-top: auto;
+  margin-bottom: 30px;
+  align-self: center;
+}
 
 
 
